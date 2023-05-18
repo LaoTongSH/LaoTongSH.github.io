@@ -1,0 +1,6 @@
+var marqueewidth=150
+var marqueeheight=100
+var speed=2
+var marqueecontents='<span style="font-size:12px;line-height:14pt;font-family: 宋体;color: #AA0000">'+'<CENTER>第一届短线论坛<br>每周短线荐股大赛排名揭晓<br><br></CENTER>&nbsp;&nbsp;&nbsp;&nbsp;网易财经确有一大批真<br>正的超级高手存在。<br>&nbsp;&nbsp;&nbsp;&nbsp;我们的网友成功的捕捉<br>了京东方、夏工股份、山西<br>汾酒、福建豪盛、美利纸业<br>等逆势牛股。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;本周短线超级天皇巨星<br>是年仅21岁的广东青年——<br><font color=#FA230C>晔洇</font>。<br><br><font color=#9900ff><i>名次&nbsp;选手&nbsp;&nbsp;&nbsp;&nbsp代码&nbsp;&nbsp;涨幅%</i></font><br>&nbsp;1&nbsp;&nbsp;晔洇&nbsp;&nbsp;&nbsp;&nbsp;600815&nbsp;12.74<br>&nbsp;2&nbsp;&nbsp;SP263&nbsp;&nbsp;&nbsp;600696&nbsp;&nbsp;8.97<br>&nbsp;3&nbsp;&nbsp;JICX&nbsp;&nbsp;&nbsp;&nbsp;600809&nbsp;&nbsp;7.39<br>&nbsp;4&nbsp;&nbsp;BJH1974&nbsp;&nbsp;&nbsp;0815&nbsp;&nbsp;7.28<br>&nbsp;5&nbsp;&nbsp;急刀&nbsp;&nbsp;&nbsp;&nbsp;600708&nbsp;&nbsp;5.32<br><br>'+'</span>'+'<CENTER><font face=繁琥珀 size=5 color=#003300><b>特表祝贺!</b></font></CENTER>'+'<br><br><font size=2 color=#AA0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;班竹：激情短线</font><br>'
+if (document.all)
+document.write('<marquee direction="up" scrollAmount='+speed+' style="width:'+marqueewidth+';height:'+marqueeheight+'">'+marqueecontents+'</marquee>')

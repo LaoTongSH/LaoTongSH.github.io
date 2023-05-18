@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=gb_2312-80">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>TELNET-USE</title>
+<base target="jyjl2">
+</head>
+
+<body bgcolor="#00FFFF">
+
+<h1 align="center"><font color="#F8741D">Telnet 的使用 </font></h1>
+
+<hr>
+
+<p><br>
+一.原理</p>
+
+<p>Telnet用于Internet的远程登录.它可以使用户坐在入网的计算机键盘前，通过网络进入远距离的另一入网计算机,成为那台计算机的终端。当您用Telnet登录进远程计算机时,您实际上启动了两个程
+序,一个叫&quot;客户&quot;程序，它在您的本地机上运行,另一个叫
+&quot;服务器&quot;程序,它在您要登录的远程计算机上运行.
+在Internet中,很多服务器都采取这样一种客户机一服务器结
+构.对Internet使用者来讲, 通常仅需了解客户端的程序.客户
+程序要完成如下操作:<br>
+1.建立与服务器的Tcp联接;<br>
+2.从键盘上接收您输入的字符; <br>
+3.把您输入的字符串变成标准格式并送给远程服务器;
+<br>
+4.从远程服务器接收输出的信息; <br>
+5.把该信息显示在您的屏幕上. <br>
+<br>
+二.使用Telnet </p>
+
+<p>在win95下,您可使用windows[或win95]目录下的telnet.exe,
+在win3.x下,您需要一个16位的telnet软件。 对win95,首先建立与Internet的SLIP/PPP联接,启动telnet,选
+择Connect菜单,屏幕上出现Connect对话框,在HostName后
+输入远程计算机的IP地址或域名,一般不用修改port和
+Termtype参数,除非远程计算机不使用标准的telnet端口,或
+您的终端不是VT100类型. 按connect后,计算机将自动建立与远程计算机的联接.联接
+成功后,远程计算机会提示您输入用户名及密码.若输入正
+确,您即成为远程计算机的一个远程用户,可直接操作远程计
+算机. 对于Win3.x用户,当您建立与Internet的SLIP/PPP连接,并启
+动telnet后,会提示您输入IP地址或域名.然后计算机将自动
+连接远程计算机,以下步骤和Win95相同. <br>
+<br>
+三.Telnet资源 </p>
+
+<p>电子公告牌[BBS]主要通过telnet来使用,比如
+telnet202.102.7.141,即进入扬州的BBS. 其它一些可telnet的节点有:
+isaac.engr.washington.edu [计算机] nyx.cs.edu;以new用户名登录
+supernet.ans.net,以Hpcwire登录. </p>
+
+<p align="center"><a href="help.htm" target="jyjl2"><font
+size="4"><strong><u><img src="../img/back.gif"
+alt="回软件使用简解" border="0" width="87" height="37"></u></strong></font></a></p>
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0033)http://guestbook.laotong.533.net/ -->
+<HTML><HEAD><TITLE>留言本 -</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>A {
+	COLOR: #400000; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND-COLOR: #cccc99
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+BODY {
+	FONT-FAMILY: 宋体,新宋体; FONT-SIZE: 10pt
+}
+TD {
+	FONT-FAMILY: 宋体,新宋体; FONT-SIZE: 10pt
+}
+INPUT {
+	FONT-SIZE: 9pt
+}
+SELECT {
+	FONT-SIZE: 9pt
+}
+TEXTAREA {
+	FONT-SIZE: 9pt
+}
+</STYLE>
+
+<META content="MSHTML 5.00.2920.0" name=GENERATOR></HEAD>
+<BODY>
+<SCRIPT><!--
+function docheck() {
+  if (document.postform.author.value.length < 2) {
+	alert("缺少内容：需要输入您的昵称");
+	document.postform.author.focus();
+	return(false);
+  }
+  if (document.postform.message.value.length < 2) {
+	alert("缺少内容：需要输入留言信息");
+	document.postform.message.focus();
+	return(false);
+  }
+  document.postform.submit();  
+  return (true);
+}
+function switchpost(layername) {
+  if (document.layers) {
+    if (document.layers[layername].visibility == "show") {
+	document.layers[layername].visibility="hide";
+    } else {
+	document.layers[layername].visibility="show";
+    }
+  }
+  if (document.all) {
+    if (document.all[layername].style.display == "") {
+	document.all[layername].style.display="none";
+  
+    } else {
+	document.all[layername].style.display="";
+    }
+  }
+}
+function dochange() {
+var thissrc;
+thissrc="http://www.533.net/icons/guestbook/"+this.postform.iconselect.options[this.postform.iconselect.selectedIndex].value+".gif";
+document.iconimg.src=thissrc;
+}
+// -->
+</SCRIPT>
+
+<SCRIPT><!--
+if (document.layers) {
+  document.write("<div align='right'><layer name='postlayer' left='0' top='150' visibility='hide'>");
+}
+if (document.all) {
+  document.write("<div ID='postlayer' align='right' style='text-align: right; position:absolute; top:150px; display: none;z-index:2'>");
+}
+//-->
+</SCRIPT>
+
+<FORM action=http://guestbook.laotong.533.net/post method=post name=postform>
+<TABLE align=right bgColor=#90d0e0>
+  <TBODY>
+  <TR>
+    <TD></TD>
+    <TD>
+      <P align=right><A href="javascript:switchpost('postlayer');">X</A><BR>
+      <CENTER><B>写下您的留言</B></CENTER>
+      <P></P><INPUT name=op type=hidden value=post> 大　名：<INPUT name=author 
+      size=40>　<BR>信　箱：<INPUT name=email size=40>　<BR>主　页：<INPUT name=homepage 
+      size=40 value=http://>　<BR>来　自：<INPUT name=address size=40 
+      value=中国><BR>ＩＣＱ：<SELECT name=icqtype size=1> <OPTION selected 
+        value=ICQ>ICQ</OPTION> <OPTION value=OICQ>OICQ</OPTION> <OPTION 
+        value=PICQ>PICQ</OPTION> <OPTION value=PCICQ>PCICQ</OPTION> <OPTION 
+        value=网际精灵>网际精灵</OPTION> <OPTION value="263 Pager">263 Pager</OPTION> 
+        <OPTION value=新浪ICQ>新浪ICQ</OPTION> <OPTION 
+        value=Netscape>Netscape</OPTION> <OPTION 
+      value=WBP99>WBP99</OPTION></SELECT> <INPUT name=icq 
+      size=25><BR>肖　像：<SELECT name=iconselect onchange=dochange(); size=2> 
+        <OPTION selected value=00>选择您满意的肖像</OPTION> <OPTION 
+        value=01>标准男生</OPTION> <OPTION value=02>标准女生</OPTION> <OPTION 
+        value=03>快乐男孩</OPTION> <OPTION value=04>快乐女孩</OPTION> <OPTION 
+        value=05>我是谁？</OPTION> <OPTION value=06>长发女孩</OPTION> <OPTION 
+        value=07>沉思男孩</OPTION> <OPTION value=08>生气女孩</OPTION> <OPTION 
+        value=09>花仙子</OPTION> <OPTION value=10>圣诞老人</OPTION> <OPTION 
+        value=11>寒羽良</OPTION> <OPTION value=12>小矮人</OPTION> <OPTION 
+        value=13>勇士</OPTION> <OPTION value=14>可爱女孩</OPTION> <OPTION 
+        value=15>老船长</OPTION> <OPTION value=16>西部牛仔</OPTION> <OPTION 
+        value=17>林月如</OPTION> <OPTION value=18>赵灵儿</OPTION> <OPTION 
+        value=19>蓝妹妹</OPTION> <OPTION value=20>太郎</OPTION> <OPTION 
+        value=21>蝙蝠侠</OPTION> <OPTION value=22>巫女</OPTION> <OPTION 
+        value=23>我是坏人</OPTION> <OPTION value=24>恶魔降临</OPTION> <OPTION 
+        value=25>死神</OPTION> <OPTION value=26>卡通猪</OPTION> <OPTION 
+        value=27>小妖精</OPTION> <OPTION value=28>赛雅人</OPTION> <OPTION 
+        value=29>ＴＯＭ</OPTION> <OPTION value=30>笨笨狮</OPTION> <OPTION 
+        value=31>蓝精灵</OPTION> <OPTION value=32>笨笨狗</OPTION> <OPTION 
+        value=33>小鸡吉米</OPTION> <OPTION value=34>小猪劳瑞</OPTION> <OPTION 
+        value=35>兔子罗杰</OPTION> <OPTION value=36>唐老鸭</OPTION> <OPTION 
+        value=37>米老鼠</OPTION> <OPTION value=38>龅牙</OPTION> <OPTION 
+        value=39>小睡虎</OPTION> <OPTION value=40>大熊猫</OPTION></SELECT>　预览：<IMG 
+      height=32 name=iconimg src="留言本 -.files/01.gif" width=32><BR>主　题：<INPUT 
+      name=subject size=40><BR>内　容：<TEXTAREA cols=38 name=message rows=4></TEXTAREA> 
+      <P align=center><INPUT onclick=docheck(); type=button value=提交>　　 <INPUT type=reset value=清除>　　 <INPUT onclick="switchpost('postlayer');" type=button value=关闭> 
+  </P></TD></TR></TBODY></TABLE></FORM>
+<SCRIPT><!--
+if (document.layers) {
+document.write("</layer></div>");
+}
+if (document.all) {
+document.write("</div>");
+}
+//-->
+</SCRIPT>
+
+<TABLE align=center border=0 cellPadding=4 cellSpacing=0 
+style="BORDER-BOTTOM: #ebf0fa 1px outset; BORDER-LEFT: #ebf0fa 1px outset; BORDER-RIGHT: #ebf0fa 1px outset; BORDER-TOP: #ebf0fa 1px outset" 
+width="100%">
+  <TBODY>
+  <TR>
+    <TD background="留言本 -.files/bg.gif" width=40></TD>
+    <TD>
+      <TABLE border=0 cellPadding=4 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR bgColor=#9bccff>
+          <TD width="50%"><FONT 
+            color=#ffffff>到此一游　　[laotong(laotong)的留言本]</FONT></TD>
+          <TD align=right><FONT color=#ffffff><A 
+            href="http://www.533.net/">淄博信息港免费个人主页</A></FONT></TD></TR></TBODY></TABLE>
+      <TABLE border=0 borderColor=#6fd0ff cellPadding=4 cellSpacing=0 
+      width="100%">
+        <TBODY>
+        <TR>
+          <TD vAlign=top><IMG src="留言本 -.files/title.jpg"> 
+            <P>亲爱的网友欢迎您！ </P></TD>
+          <TD align=right vAlign=top>
+            <TABLE border=0>
+              <TBODY>
+              <TR>
+                <TD bgColor=#6fd0ff height=3 width="100%"></TD></TR>
+              <TR><!--Guest-->
+                <FORM action=http://guestbook.laotong.533.net method=post>
+                <TD>输入口令进入站长模式： <INPUT name=loginpasswd size=16 type=password> 
+<INPUT name=submit type=submit value=进入> <INPUT name=op 
+                  type=hidden value=login> </TD></FORM><!--tseuG--></TR>
+              <TR>
+                <TD bgColor=#6fd0ff height=3 width="100%"></TD></TR>
+              <TR>
+                <FORM action=http://guestbook.laotong.533.net method=post>
+                <TD bgColor=#cfe3fe width="100%">输入要搜索的留言内容： <INPUT 
+                  name=search size=16> <INPUT name=submit type=submit value=搜索> 
+                </TD></FORM></TR>
+              <TR>
+                <TD bgColor=#6fd0ff height=3 width="100%"></TD></TR>
+              <TR>
+                <TD align=middle><A 
+                  href="javascript:switchpost('postlayer');">写留言</A> | <FONT 
+                  color=silver>上一页</FONT> | <A 
+                  href="http://guestbook.laotong.533.net/page=2">下一页</A> | <A 
+                  href="http://guestbook.laotong.533.net/show">刷　新</A> | <A 
+                  href="http://laotong.533.net/" target=_top>回首页</A> </TD></TR>
+              <TR>
+                <TD bgColor=#6fd0ff height=3 width="100%"></TD></TR></TBODY></TABLE>
+            <P>留言数:14 总页数:2(每页10条) 第 1 页 </P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>骁勇</B>　　 （张贴时间：<FONT 
+            face=arial>2001-10-15 10:13:55</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>ICQ：84025297</FONT> 
+      </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:bjtxjg@163.com">bjtxjg@163.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http://sbtp.yeah.net/" 
+            target=_blank>http://sbtp.yeah.net/</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/01.gif" vspace=5 width=32 valign="top"><B></B>
+            <P>请大家到士兵图片站作客 <BR>http://sbtp.yeah.net 
+      </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>weiwei</B>　　 
+            （张贴时间：<FONT face=arial>2001-10-13 
+          22:18:59</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>ICQ：</FONT> </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:weihx5117@sina.com">weihx5117@sina.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http:///" 
+            target=_blank>http://</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/01.gif" vspace=5 width=32 valign="top"><B></B>
+            <P>老上海，您好！最近干什么？ <BR>要那么多钱干啥？歇歇！ <BR>来这里有太白积雪！如何？ 
+        <BR></FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>我心荡漾</B>　　 
+            （张贴时间：<FONT face=arial>2001-09-29 
+          22:10:38</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：7083636</FONT> 
+      </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:cadyin@163.com">cadyin@163.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http://www.cadyin.com/" 
+            target=_blank>http://www.cadyin.com/</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/11.gif" vspace=5 width=32 valign="top"><B>我杀！</B>
+            <P>居然没人来啊，老先生！ <BR><BR>又是我！ </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>我心荡漾</B>　　 
+            （张贴时间：<FONT face=arial>2001-05-22 
+          15:33:55</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：7083636</FONT> 
+      </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:cadyin@163.com">cadyin@163.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http://popple.3322.net/" 
+            target=_blank>http://popple.3322.net/</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/11.gif" vspace=5 width=32 
+            valign="top"><B>哈哈哈平头美女</B>
+            <P>哈哈哈，有，有一套 </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>我心荡漾</B>　　 
+            （张贴时间：<FONT face=arial>2001-05-22 
+          15:28:34</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：7083636</FONT> 
+      </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:cadyin@163.com">cadyin@163.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http://popple.3322.net/" 
+            target=_blank>http://popple.3322.net/</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/11.gif" vspace=5 width=32 
+            valign="top"><B>头像还是没好的！</B>
+            <P>呼，快找吧 </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>平头美女</B>　　 
+            （张贴时间：<FONT face=arial>2001-05-19 
+          17:32:51</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：1896673</FONT> 
+      </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:tanchun660@371.net">tanchun660@371.net</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http:///" 
+            target=_blank>http://</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/02.gif" vspace=5 width=32 
+            valign="top"><B>没想到你已经知天命了</B>
+            <P>按说我该叫您叔叔的，不过还是叫大哥的好。这样您可以感到自己心理是年轻的。 <BR>网络上的人以年轻人为主啊。 
+            <BR>恩，互脸网刚开始的时候是以技术人员为主的。 <BR>现在普及了。 
+            <BR>我正在做一个主页，名字叫“十分女人”，过几天就差不多了，到时候互相做个连接。好吗？ 
+        </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>心心鱼</B>　　 
+            （张贴时间：<FONT face=arial>2001-05-11 
+          09:39:17</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：</FONT> </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:mayiyu@yeah.com">mayiyu@yeah.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http:///" 
+            target=_blank>http://</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/14.gif" vspace=5 width=32 valign="top"><B>嘻嘻~~</B>
+            <P>不错啊~~~ </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>心心鱼</B>　　 
+            （张贴时间：<FONT face=arial>2001-05-11 
+          09:39:17</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：</FONT> </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:mayiyu@yeah.com">mayiyu@yeah.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http:///" 
+            target=_blank>http://</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/14.gif" vspace=5 width=32 valign="top"><B>嘻嘻~~</B>
+            <P>不错啊~~~ </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>我心荡漾</B>　　 
+            （张贴时间：<FONT face=arial>2001-04-15 
+          15:43:47</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>OICQ：7083636</FONT> 
+      </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:cadyin@163.com">cadyin@163.com</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http://popple.3322.net/" 
+            target=_blank>http://popple.3322.net/</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/11.gif" vspace=5 width=32 
+            valign="top"><B>这里不错，就是没有能陪上我的肖像</B>
+            <P>我长的像莱昂纳多 </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="58%"><FONT color=#f00020>●</FONT> <B>细雨轻烟~~</B>　　 
+            （张贴时间：<FONT face=arial>2001-04-11 
+          17:12:21</FONT>）<!--ip_address--></TD>
+          <TD align=right><FONT face=arial>ICQ：</FONT> </TD></TR></TBODY></TABLE>
+      <TABLE border=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#e0e0e0 noWrap>电子邮件：</TD>
+          <TD width="85%"><FONT color=#0080c0><A 
+            href="mailto:ee9701024@263.net">ee9701024@263.net</FONT></A></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>个人主页：</TD>
+          <TD><FONT color=#0080c0><A href="http://无/" 
+            target=_blank>http://无/</A></FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>来自：</TD>
+          <TD><FONT color=#0080c0>中国 陕西　　</FONT></TD></TR>
+        <TR>
+          <TD bgColor=#e0e0e0>留言内容：</TD>
+          <TD><FONT color=#0080c0><IMG align=left height=32 hspace=5 
+            src="留言本 -.files/17.gif" vspace=5 width=32 valign="top"><B></B>
+            <P>呵呵~ <BR>增长见识~~ </FONT></P></TD></TR></TBODY></TABLE>
+      <TABLE bgColor=#9bccff border=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD height=20 width="100%"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P align=center>留言本程序由<A 
+href="http://www.533.net/">淄博信息港免费个人主页系统</A>提供。技术支持请访问主页。 
+<BR>本留言板言论纯属发表者个人意见，与技术服务提供商立场无关 </P></BODY></HTML>

@@ -1,0 +1,18 @@
+$gbbody="text=#336666 alink=#336666 vlink=#336666 link=#336666 leftmargin=0";
+$gbbgcolor="#ECF6F5";
+$cdfont="#336666";
+$btbgcolor="#73BAB4";
+$btfont="#ffffff";
+$tbcolor="#336666";
+$guestbgcolor="#ECF6F5";
+$guestfont="#336666";
+$guestnamefont="#ffffff";
+$guestnamegy="#336666";
+$lybgcolor="#ECF6F5";
+$lyfont="#336666";
+$adminfont="#ff0000";
+$adminfontny="#000000";
+$tablewidth="90%";
+$topgg="";
+$downgg="";
+1;

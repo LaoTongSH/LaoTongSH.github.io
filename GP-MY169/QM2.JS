@@ -1,0 +1,5 @@
+document.write('')
+document.write("<a href=#【老童之家】（个人网站） onClick=window.open('http://laotong.126.com')><IMG SRC='http://person.zj.cninfo.net/~laotong/laotong.gif' BORDER=0 ALT='【欢迎访问老兵新传--老童之家】'></a><br><br>")
+document.write("<a href=mailto:laotong@163.com'><IMG SRC='http://person.zj.cninfo.net/~laotong/gp/email.gif' BORDER=0 ALT='【给老童写信】'></a><br><br>")
+document.write("<IMG SRC='http://person.zj.cninfo.net/~laotong/gp/oicq.gif' BORDER=0 ALT='【ＯＩＣＱ】'><font size=3 color=#006600><b>：<i>951631</i></b></font><br><br>")
+document.write("<IMG SRC='http://person.zj.cninfo.net/~laotong/gp/icq.gif' BORDER=0 ALT='【ＩＣＱ】'><font size=3 color=#006600><b>：<i>17536599</i></b></font><br>")
